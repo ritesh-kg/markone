@@ -1,0 +1,74 @@
+/* Apply styles to the entire document body */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font for the entire document */
+    background-color: #093562; /* Set the background color of the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure a minimum height of the viewport */
+}
+
+/* Style for the main container */
+.container {
+    background-color: #ffffff; /* Set background color for the container */
+    border-radius: 8px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    padding: 30px; /* Add padding to the container */
+    text-align: center; /* Center text within the container */
+    width: 300px; /* Set a fixed width for the container */
+    max-width: 80%; /* Set a maximum width to ensure responsiveness */
+}
+
+/* Style for the main heading */
+h1 {
+    color: #343a40; /* Set text color for the heading */
+}
+
+/* Style for the form within the container */
+form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Arrange form elements in a column */
+    align-items: center; /* Center form elements horizontally */
+    margin-top: 20px; /* Add space between heading and form */
+}
+
+/* Style for form labels */
+label {
+    margin-bottom: 8px; /* Add space below the labels */
+    color: #343a40; /* Set text color for labels */
+}
+
+/* Style for form input fields */
+input {
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 16px; /* Add space below input fields */
+    width: 100%; /* Make input fields take up full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for form select dropdown */
+select {
+    padding: 10px; /* Add padding to select dropdown */
+    margin-bottom: 16px; /* Add space below select dropdown */
+    width: 100%; /* Make select dropdown take up full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for form submission button */
+button {
+    padding: 12px; /* Add padding to the button */
+    background-color: #007bff; /* Set background color for the button */
+    color: #fff; /* Set text color for the button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 100%; /* Make the button take up full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for result section */
+.result {
+    margin-top: 20px; /* Add space above the result section */
+    color: #28a745; /* Set text color for the result */
+}
